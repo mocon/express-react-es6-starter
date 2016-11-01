@@ -4,7 +4,7 @@
   "description": "Rendering React on an Express server",
   "main": "lib/server.js",
   "scripts": {
-    "start": "nodemon lib/server.js --exec babel-node",
+    "start": "webpack && nodemon lib/server.js --exec babel-node",
     "build": "babel lib -d dist",
     "serve": "node dist/server.js"
   },
