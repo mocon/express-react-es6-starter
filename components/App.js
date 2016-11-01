@@ -16,6 +16,7 @@ export default class App extends Component {
                     <h1>Hello, World!</h1>
                     <p>Sample paragraph</p>
                     <button onClick={this.toggle}>Toggle</button>
+                    <script src="./bundle.js" />
                 </body>
             </html>
         )
