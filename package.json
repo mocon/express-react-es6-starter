@@ -1,0 +1,23 @@
+{
+  "name": "react-server",
+  "version": "0.0.1",
+  "description": "Rendering React on an Express server",
+  "main": "lib/server.js",
+  "scripts": {
+    "start": "nodemon lib/server.js --exec babel-node",
+    "build": "babel lib -d dist",
+    "serve": "node dist/server.js"
+  },
+  "author": "Myles O'Connor",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-2": "^6.18.0",
+    "nodemon": "^1.11.0"
+  }
+}
